@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Relative">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/first1"
+        android:text="button 1"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/second2"
+        android:text="button 2"
+        android:layout_alignParentEnd="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/third3"
+        android:text="button 3"
+        android:layout_below="@+id/first1"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fourth4"
+        android:text="button 4"
+        android:layout_below="@id/first1"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fifth5"
+        android:text="button 5"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/second2"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sixth6"
+        android:text="button 6"
+        android:layout_below="@+id/third3"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seventh7"
+        android:text="button 7"
+        android:layout_below="@+id/sixth6"
+        android:layout_alignParentEnd="true"/>
+
+    <Button
+        android:id="@+id/eight8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seventh7"
+        android:text="button 8" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ninth9"
+        android:text="button 9"
+        android:layout_below="@id/seventh7"
+        android:layout_alignParentEnd="true"/>
+
+    <Button
+        android:id="@+id/tenth10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eight8"
+        android:text="button 10" />
+    <Button
+        android:id="@+id/eleventh11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/ninth9"
+        android:text="button 11"/>
+    <Button
+        android:id="@+id/twelfth12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/eleventh11"
+        android:text="button 12"/>
+
+    <Button
+        android:id="@+id/thirteenth13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/twelfth12"
+        android:text="button 13" />
+    <Button
+        android:id="@+id/fourteenth14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/thirteenth13"
+        android:text="button 14"/>
+    <Button
+        android:id="@+id/fifteenth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/fourteenth14"
+        android:text="button 15"/>
+
+</RelativeLayout>
